@@ -12,4 +12,20 @@ do                              \
 }                               \
 while (0)
 
+struct Text
+{
+    int   NumberLines;
+    char* Buffer;
+    Line* Lines;
+};
+
+struct Line
+{
+    char* String;
+    int   Lenght;
+};
+
+
+int InputData();
+
 #endif // INPUTTEXT_H_INCLUDED
